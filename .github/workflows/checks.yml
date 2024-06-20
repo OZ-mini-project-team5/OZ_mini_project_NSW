@@ -20,3 +20,4 @@
             run: docker-compose run --rm app sh -c "python manage.py test"
           - name: Lint # pep8 파이썬 코드 스타일 가이드 준수 여부 검사
             run: docker-compose run --rm app sh -c "flake8"
+            
